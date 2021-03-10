@@ -18,7 +18,7 @@
     $dateTime = $now->format('Y-m-d H:i:s');
 
     try {
-        $statement = $conn->prepare("INSERT INTO `mercadomercato`.`tagplus_access_token` (`access_token`, `expires_in`, `refresh_token`, `token_type`, `date_create`) VALUES ('$access_token', '$token_type', '$expires_in', 'humm temos que resolver', '$dateTime')");
+        $statement = $conn->prepare("INSERT INTO `mercadomercato`.`tagplus_access_token` (`access_token`, `expires_in`, `refresh_token`, `token_type`, `date_create`) VALUES ('$access_token', '$expires_in', 'humm resolver', '$token_type', '$dateTime')");
         $statement->execute();
     } catch(PDOException $e){
         echo "Erro: " . $e->getMessage() . "<br>";
