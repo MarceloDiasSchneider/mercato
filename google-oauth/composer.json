@@ -1,0 +1,29 @@
+{
+    "name" : "robsonvleite/phptips019",
+    "description" : "Google Oauth 2.0",
+    "minimum-stability" : "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Dias Schneider",
+            "email": "marcelo.d.schneider@gmail.com",
+            "role": "Developer",
+            "homepage": "https://marceloschneider.dev.br"
+
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require":{
+        "league/oauth2-google" : "3.0.*"
+    }
+}
