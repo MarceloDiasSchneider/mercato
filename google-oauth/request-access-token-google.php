@@ -9,7 +9,7 @@
         echo "<h1>Guest user</h1>" ;
 
         /* Auth google */
-        $google = new \League\OAuth2\Client\Provider\Google( options: GOOGLE);
+        $google = new \League\OAuth2\Client\Provider\Google(GOOGLE);
         $authUrl = $google->getAuthorizationUrl();
         $error = filter_input( INPUT_GET, "error", FILTER_SANITIZE_STRING );
         $code = filter_input( INPUT_GET, "code", FILTER_SANITIZE_STRING );
