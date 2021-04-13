@@ -6,12 +6,12 @@
     $expires_in = $_GET['expires_in'];
     // $refresh_token = $_GET['refresh_token'];
 
-    echo $access_token;
-    echo '<hr>';
-    echo $token_type;
-    echo '<hr>';
-    echo $expires_in;
-    // echo $refresh_token;
+    // echo $access_token;
+    // echo '<hr>';
+    // echo $token_type;
+    // echo '<hr>';
+    // echo $expires_in;
+    // // echo $refresh_token;
 
     $timezone = new DateTimeZone('Europe/Rome');
     $now = new DateTime('now', $timezone);

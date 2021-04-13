@@ -1,0 +1,29 @@
+<!-- http://gasfacil.app.br/mercato/php/api-tagplus.php#
+
+access_token=8Xp1cJF7MEr0M7FMICFdPZxFhLAFsTlA
+&
+expires_in=86400
+&
+state
+&
+token_type=bearer
+access_token=8Xp1cJF7MEr0M7FMICFdPZxFhLAFsTlA&expires_in=86400&state&token_type=bearer -->
+
+https://developers.tagplus.com.br/authorize?response_type=token&client_id=ny9JjJlYqgq4HG9sR2cvNil70IeSI63x&client_secret=BVV2RfPeK2LflIFf3YkCkHkE3XlaI9km&scope=write:produtos+read:pedidos
+
+https://developers.tagplus.com.br/authorize?response_type=token&client_id=ny9JjJlYqgq4HG9sR2cvNil70IeSI63x&scope=write:produtos+read:pedidos
+
+// let url = 'https://api.tagplus.com.br/produtos/70'
+// let authentication = {
+//     'X-Api-Version' : 2.0,
+//     'Authorization' : 'Bearer lJpJ0goO6mRCPwebGC8hbaxaCctF71x8',
+//     'Content-Type' : 'application/json'
+// }
+// $(document).ready( function(){
+//     console.log('oi');
+//     $.get(url, authentication,function( data, state ){
+//         console.log(state);
+//         console.log(data);
+//     })
+
+// })

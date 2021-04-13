@@ -29,7 +29,7 @@
                 exit();
             }
             
-        echo "<a title='Logar com Google' href='{$authUrl}'>Google Login</a>";
+        echo "<a title='Logar com Google' href='{$authUrl}' target='_blank'>Google Login</a>";
 
     } else {
         echo "<h1>User</h1>";
