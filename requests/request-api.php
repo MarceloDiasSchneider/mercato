@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://api.tagplus.com.br/produtos/1',
+  CURLOPT_URL => 'https://api.tagplus.com.br/produtos/5',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
@@ -22,4 +22,6 @@ curl_setopt_array($curl, array(
 $response = curl_exec($curl);
 
 curl_close($curl);
-echo $response;
+echo '<pre>';
+print_r($response);
+echo '</pre>';
